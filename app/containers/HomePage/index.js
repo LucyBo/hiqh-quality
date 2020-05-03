@@ -8,7 +8,10 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
-import Button from '../../components/Button';
+import BasicButton from '../../components/BasicButton';
+import BrightButton from '../../components/BrightButton';
+import Placeholder from '../../components/Placeholder';
+import Navbar from '../../components/Navbar';
 
 export default function HomePage() {
   return (
@@ -16,7 +19,10 @@ export default function HomePage() {
       <h1>
         <FormattedMessage {...messages.header} />
       </h1>
-      <Button />
+      <Navbar />
+      <BasicButton />
+      <BrightButton />
+      <Placeholder />
     </div>
   );
 }
