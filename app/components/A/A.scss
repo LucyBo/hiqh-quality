@@ -1,0 +1,21 @@
+@import "../../../app/assets/_master";
+.navbar-link {
+    color: black;
+    &:hover {
+        color: $purple;
+        text-decoration: none;
+    }
+    ;
+    &:active {
+        color: $button-frame-top;
+    }
+    ;
+    &:focus {
+        outline: none;
+    }
+    ;
+    &:visited {
+        color: $button-frame-top;
+    }
+    ;
+}

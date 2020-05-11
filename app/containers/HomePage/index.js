@@ -6,23 +6,20 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
 import BasicButton from '../../components/BasicButton';
 import BrightButton from '../../components/BrightButton';
 import Placeholder from '../../components/Placeholder';
 import Navbar from '../../components/Navbar';
+import A from '../../components/A';
 
 export default function HomePage() {
   return (
     <div>
-      <h1>
-        <FormattedMessage {...messages.header} />
-      </h1>
       <Navbar />
       <BasicButton />
       <BrightButton />
       <Placeholder />
+      <A />
     </div>
   );
 }

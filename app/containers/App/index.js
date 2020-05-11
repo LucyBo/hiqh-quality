@@ -16,7 +16,6 @@ import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import GlobalStyle from '../../global-styles';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import 'font-awesome/css/font-awesome.css';
 
 export default function App() {
   return (
