@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle `
   html,
   body {
     height: 100%;
@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #app {
-    background-color: #fafafa;
+    background-color: #ffffff;
     min-height: 100%;
     min-width: 100%;
   }

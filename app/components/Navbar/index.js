@@ -7,7 +7,7 @@ export default function Navbar() {
     <div>
       <nav
         className="navbar navbar-expand-lg navbar-light bg-light"
-        id="navbar"
+        id="mainNav"
       >
         <a className="navbar-brand" href="#">
           High Quality
@@ -25,8 +25,8 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-item nav-link active" href="#">
-              About <span className="sr-only">(current)</span>
+            <a className="nav-item nav-link" href="#">
+              About
             </a>
             <a className="nav-item nav-link" href="#">
               Layout
@@ -40,6 +40,9 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
+
+
+      
     </div>
   );
 }

@@ -1,6 +1,7 @@
 @import "../../../app/assets/_master";
 .navbar-link {
     color: black;
+    font-family: $font-decorative;
     &:hover {
         color: $purple;
         text-decoration: none;

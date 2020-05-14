@@ -12,8 +12,8 @@ $basic-dark: #130f11;
 $icons-berries: #B64674;
 $pink-round-decoration: #E81264;
 $outline-button-frame: #FDF1F3;
-
-@mixin body-font {
-    font-family: 'Quicksand', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-}
-
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway&display=swap');
+$font-stack: 'Raleway',
+sans-serif;
+$font-decorative: 'Fredoka One'

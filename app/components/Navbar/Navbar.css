@@ -1,1 +1,52 @@
-null
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway&display=swap");
+#mainNav {
+  background-color: #FFECEF !important;
+}
+
+#mainNav .navbar-brand {
+  color: #9C0746;
+  font-family: "Fredoka One";
+  margin-left: 1rem;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+  color: #E71265;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+}
+
+#mainNav .nav-item {
+  font-size: 16px;
+  color: #130f11;
+  margin-left: 1rem;
+}
+
+#mainNav .nav-item:active {
+  color: #E71265;
+}
+
+#mainNav .nav-item:hover {
+  color: #E71265;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    opacity: 100%;
+  }
+  #mainNav .navbar-brand {
+    color: #9C0746;
+  }
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: #E71265;
+  }
+  #mainNav .nav-item:focus:hover, #mainNav .nav-item:focus:active, #mainNav .nav-item:focus:focus {
+    color: #E71265;
+  }
+  #mainNav .nav-item:focus:visited {
+    color: #B64674;
+  }
+}

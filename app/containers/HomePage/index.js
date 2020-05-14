@@ -11,11 +11,13 @@ import BrightButton from '../../components/BrightButton';
 import Placeholder from '../../components/Placeholder';
 import Navbar from '../../components/Navbar';
 import A from '../../components/A';
+import Header from '../../components/Header';
 
 export default function HomePage() {
   return (
     <div>
       <Navbar />
+      <Header/>
       <BasicButton />
       <BrightButton />
       <Placeholder />

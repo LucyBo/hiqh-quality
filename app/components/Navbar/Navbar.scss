@@ -1,1 +1,54 @@
 @import "../../../app/assets/_master";
+#mainNav {
+    background-color: $background-pink !important;
+    .navbar-brand {
+        color: $purple;
+        font-family: $font-decorative;
+        
+        &:hover,
+        &:focus {
+            color: $button-top;
+        }
+    }
+    .navbar-toggler {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .nav-item {
+        font-size: 16px;
+        color: $basic-dark;
+        margin-left: 1rem;
+        &:active {
+            color: $button-top;
+        }
+        &:hover {
+            color: $button-top;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        border-color: transparent;
+        opacity: 100%;
+        .navbar-brand {
+            color: $purple;
+            margin-left: 1rem;
+            &:hover,
+            &:focus {
+                color: $button-top;
+            }
+        }
+        .nav-item:focus {
+            &:hover,
+            &:active,
+            &:focus {
+                color: $button-top;
+            }
+            ;
+            &:visited {
+                color: $icons-berries;
+            }
+        }
+    }
+}
