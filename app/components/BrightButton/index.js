@@ -1,11 +1,11 @@
 import React from 'react';
 import './BrightButton.scss';
 
-export default function BrightButton() {
+export default function BrightButton(props) {
   return (
     <div>
       <button type="button" className="bright-button btn btn-outline-danger">
-        Bright Button
+        {props.children}
       </button>
       <div className="gradient-box" />
     </div>

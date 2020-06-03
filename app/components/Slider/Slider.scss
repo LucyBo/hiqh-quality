@@ -1,0 +1,75 @@
+@import "../../../app/assets/_master";
+.slider {
+    background-color: $background-pink;
+    padding: 5rem 0 5rem 0;
+    h2 {
+        font-family: $font-decorative;
+        color: $purple;
+        margin: 2rem;
+        font-size: 3rem;
+    }
+    ;
+    .img-details {
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    .img-1 {
+        background-image: url('../../images/css.png');
+    }
+    .img-2 {
+        background-image: url('../../images/html-5.png');
+    }
+    .img-3 {
+        background-image: url('../../images/github.png');
+    }
+    .img-4 {
+        background-image: url('../../images/instagram-sketched.png');
+    }
+    .img-5 {
+        background-image: url('../../images/react.png');
+    }
+    .img-6 {
+        background-image: url('../../images/sass.png');
+    }
+    .img-7 {
+        background-image: url('../../images/seo-and-web.png');
+    }
+    .img-8 {
+        background-image: url('../../images/youtube.png');
+    }
+    @mixin on-circle($item-count,
+    $circle-size,
+    $item-size) {
+        position: relative;
+        width: $circle-size;
+        height: $circle-size;
+        border-radius: 50%;
+        padding: 0;
+        list-style: none;
+        >* {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -($item-size / 2);
+            width: $item-size;
+            height: $item-size;
+            $angle: (360 / $item-count);
+            $rot: 22.5;
+            @for $i from 1 through $item-count {
+                &:nth-of-type(#{$i}) {
+                    transform: rotate($rot * 1deg) translate($circle-size / 2) rotate($rot * -1deg);
+                }
+                $rot: $rot+$angle;
+            }
+        }
+    }
+    .circle-container {
+        @include on-circle($item-count: 8, $circle-size: 45em, $item-size: 4em);
+        margin: 5em auto 0;
+        background-image: url('../../images/imac.png');
+        background-position: center center;
+    }
+}

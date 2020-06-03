@@ -1,36 +1,71 @@
 @import "../../../app/assets/_master";
-header.masthead {
-    position: relative;
+.FirstSection {
     width: 100%;
-    color: $purple;
-    background-color: $background-pink;
-    background-position: center;
-    .header-content {
-        max-width: 500px;
-        margin-bottom: 100px;
-        text-align: left;
-        z-index: 2;
-    }
-    h1 {
+    background-color: #ffffff;
+    margin: 30px 0 30px 0;
+    h2 {
         font-family: $font-decorative;
-    };
+        color: $purple;
+        margin: 2rem;
+        font-size: 3rem;
+    }
+    ;
+    .baseline {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .bright-text {
+        color: grey;
+        margin: 0.5rem;
+    }
+    .icon-cake {
+        background-image: url('../../images/caipirinha.png');
+        height: 64px;
+        width: 64px;
+    }
+    ;
+    h3 {
+        margin: 1rem;
+    }
+    ;
     h4 {
-        color: $basic-dark;
+        text-align: left;
+    }
+    .steps {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    .bullets {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 0 1rem 0;
+        #dots {
+            height: 8px;
+            width: 8px;
+            border-radius: 50%;
+            background-color: $button-top;
+            margin-left: 40px;
+            -webkit-box-shadow: 40px 0px 0px 0px $button-top, 80px 0px 0px 0px $button-top;
+            -moz-box-shadow: 40px 0px 0px 0px $button-top, 80px 0px 0px 0px $button-top;
+            box-shadow: 40px 0px 0px 0px $button-top, 80px 0px 0px 0px $button-top;
+        }
+    }
+    ;
+    .decorative-number {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: $button-top;
+        color: white;
+        display: inline-block;
+        padding: 10px;
+    }
+    ;
+    .left-align-description {
+        text-align: left;
     }
 }
-
-@media (min-width: 992px) {
-        height: 100vh;
-        min-height: 775px;
-        z-index: 2;
-        .header-content {
-            margin-bottom: 0;
-            text-align: left;
-            h1 {
-                font-size: 50px;
-            }
-        }
-        .device-container {
-            max-width: 325px;
-        }
-    }
