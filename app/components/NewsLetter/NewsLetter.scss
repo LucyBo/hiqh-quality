@@ -1,0 +1,34 @@
+@import "../../../app/assets/_master";
+
+.NewsLetter {
+    width: 100%;
+    background-color: $background-pink;
+    padding: 3rem 0 3rem 0;
+    h2 {
+        font-family: $font-decorative;
+        color: $purple;
+        margin: 2rem;
+        font-size: 3rem;
+    }
+    ;
+    .row {
+        margin: 30px;
+    }
+    .name::placeholder {
+        background-image: url('../../images/user.png');
+        margin: 30px;
+        padding-left: 30px;
+        background-repeat: no-repeat;
+       
+
+    }
+    .e-mail::placeholder {
+        background-image: url('../../images/envelope.png');
+        padding-left: 30px;
+        background-repeat: no-repeat;
+        
+    }
+    input {
+        margin-bottom: 1rem;
+    }
+}

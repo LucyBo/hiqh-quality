@@ -8,17 +8,16 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { HashRouter as Router } from 'react-router-dom';
-import BasicButton from '../../components/BasicButton';
-import BrightButton from '../../components/BrightButton';
-import Placeholder from '../../components/Placeholder';
 import Navbar from '../../components/Navbar';
-import A from '../../components/A';
 import Header from '../../components/Header';
 import FirstSection from '../../components/FirstSection';
 import SecondSection from '../../components/SecondSection';
 import Slider from '../../components/Slider';
 import ContactForm from '../../components/Form';
 import ThirdSection from '../../components/ThirdSection';
+import HeaderMirror from '../../components/HeaderMirror';
+import NewsLetter from '../../components/NewsLetter';
+import Contact from '../../components/Contact';
 
 export default function HomePage() {
   return (
@@ -29,13 +28,12 @@ export default function HomePage() {
       <ContactForm />
       <Slider />
       <SecondSection />
-      <BasicButton />
-      <BrightButton />
-      <Placeholder />
-      <A />
+      <HeaderMirror/>
       <Router>
         <ThirdSection />
       </Router>
+      <NewsLetter/>
+      <Contact/>
     </div>
   );
 }

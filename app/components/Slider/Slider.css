@@ -11,12 +11,24 @@
   font-size: 3rem;
 }
 
+.slider h4 {
+  font-family: "Fredoka One";
+  color: #9C0746;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
 .slider .img-details {
   opacity: 0.5;
 }
 
 .slider .img-details:hover {
   opacity: 1;
+}
+
+.slider .description {
+  width: 200px;
+  padding-top: 60px;
 }
 
 .slider .img-1 {

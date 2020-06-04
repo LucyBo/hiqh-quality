@@ -9,11 +9,21 @@
         font-size: 3rem;
     }
     ;
+    h4 {
+        font-family: $font-decorative;
+        color: $purple;
+        margin: 2rem;
+        font-size: 2rem;
+    }
     .img-details {
         opacity: 0.5;
         &:hover {
             opacity: 1;
         }
+    }
+    .description {
+        width: 200px;
+        padding-top: 60px;
     }
     .img-1 {
         background-image: url('../../images/css.png');
