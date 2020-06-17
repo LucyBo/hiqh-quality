@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway&display=swap");
+.DescriptionSection {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 30px 0 30px 0;
+}
+
+.DescriptionSection h2 {
+  font-family: "Fredoka One";
+  color: #9C0746;
+  margin: 2rem;
+  font-size: 3rem;
+}
+
+.DescriptionSection .baseline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.DescriptionSection .bright-text {
+  color: grey;
+  margin: 0.5rem;
+}
+
+.DescriptionSection .icon-cake {
+  background-image: url("../../images/caipirinha.png");
+  height: 64px;
+  width: 64px;
+}
+
+.DescriptionSection h3 {
+  margin: 1rem;
+}
+
+.DescriptionSection h4 {
+  text-align: left;
+}
+
+.DescriptionSection img {
+  max-height: 250px;
+  width: auto;
+}
+
+.DescriptionSection .steps {
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.DescriptionSection .bullets {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.DescriptionSection .bullets #dots {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #E71265;
+  margin-left: 40px;
+  -webkit-box-shadow: 40px 0px 0px 0px #E71265, 80px 0px 0px 0px #E71265;
+  -moz-box-shadow: 40px 0px 0px 0px #E71265, 80px 0px 0px 0px #E71265;
+  box-shadow: 40px 0px 0px 0px #E71265, 80px 0px 0px 0px #E71265;
+}
+
+.DescriptionSection .decorative-number {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #E71265;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+
+.DescriptionSection .left-align-description {
+  text-align: left;
+}

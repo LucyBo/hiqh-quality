@@ -26,28 +26,28 @@
         padding-top: 60px;
     }
     .img-1 {
-        background-image: url('../../images/css.png');
+        background-image: url('../../images/charity.png');
     }
     .img-2 {
-        background-image: url('../../images/html-5.png');
+        background-image: url('../../images/success.png');
     }
     .img-3 {
-        background-image: url('../../images/github.png');
+        background-image: url('../../images/growth.png');
     }
     .img-4 {
-        background-image: url('../../images/instagram-sketched.png');
+        background-image: url('../../images/gym.png');
     }
     .img-5 {
-        background-image: url('../../images/react.png');
+        background-image: url('../../images/knowledge.png');
     }
     .img-6 {
-        background-image: url('../../images/sass.png');
+        background-image: url('../../images/umbrella.png');
     }
     .img-7 {
-        background-image: url('../../images/seo-and-web.png');
+        background-image: url('../../images/party.png');
     }
     .img-8 {
-        background-image: url('../../images/youtube.png');
+        background-image: url('../../images/birthday.png');
     }
     @mixin on-circle($item-count,
     $circle-size,
@@ -79,7 +79,8 @@
     .circle-container {
         @include on-circle($item-count: 8, $circle-size: 45em, $item-size: 4em);
         margin: 5em auto 0;
-        background-image: url('../../images/imac.png');
+        background-image: url('../../images/cake.png');
         background-position: center center;
+        background-size: 400px 350px;
     }
 }

@@ -13,22 +13,22 @@ import Header from '../../components/Header';
 import FirstSection from '../../components/FirstSection';
 import SecondSection from '../../components/SecondSection';
 import Slider from '../../components/Slider';
-import ContactForm from '../../components/Form';
 import ThirdSection from '../../components/ThirdSection';
 import HeaderMirror from '../../components/HeaderMirror';
 import NewsLetter from '../../components/NewsLetter';
 import Contact from '../../components/Contact';
+import DescriptionSection from '../../components/DescriptionSection';
 
 export default function HomePage() {
   return (
     <div>
       <Navbar />
-      <Header />
-      <FirstSection />
-      <ContactForm />
-      <Slider />
-      <SecondSection />
+      <Header/>
+      <FirstSection/>
+      <Slider/>
+      <SecondSection/>
       <HeaderMirror/>
+      <DescriptionSection/>
       <Router>
         <ThirdSection />
       </Router>
@@ -37,3 +37,4 @@ export default function HomePage() {
     </div>
   );
 }
+

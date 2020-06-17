@@ -3,10 +3,11 @@ import './Slider.scss';
 import BrightButton from '../BrightButton';
 import BasicButton from '../BasicButton';
 
-export default function Slider() {
+export default function Slider({id}) {
   return (
-    <div className="slider text-center">
-      <h2>Working on Website</h2>
+    <section className="slider text-center"
+    id="section2">
+      <h2>A vision for change</h2>
       <ul className="circle-container">
         <li className="img-details img-1"><div className="description">Lorem Ipsum tu jest opis Lorem Ipsum tu jest opis</div></li>
         <li className="img-details img-2" />
@@ -20,6 +21,6 @@ export default function Slider() {
       <h4>Header H4</h4>
       <div>Simple Description With basic text</div>
       <BasicButton>Link! Link!</BasicButton>
-    </div>
+    </section>
   );
 }

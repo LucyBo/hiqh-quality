@@ -3,8 +3,7 @@ import './Footer.scss';
 
 
 export default class HomePage extends Component {
-  render() {
-    return <div> Footer </div>
-    ;
-  }
+    render() {
+        return <section className = "Footer" > Footer </section>;
+    }
 }

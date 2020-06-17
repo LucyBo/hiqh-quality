@@ -3,13 +3,14 @@ import './HeaderMirror.scss';
 import imac from '../../images/imac.png';
 
 
-export default function HeaderMirror() {
+export default function HeaderMirror({title, id}) {
   return (
-    <div>
-      <section className="HeaderMirror">
+    <section title="Section 5"
+    id="section5">
+      <div className="HeaderMirror" >
           <h2 className="text-center">Header Mirror</h2>
-      </section>
-      <section className="row">
+      </div>
+      <div className="row">
       <div className="col-lg-6 my-auto">
         <div className="text-center">
           <img src={imac} className="img-fluid" alt="smiling woman" />
@@ -21,7 +22,7 @@ export default function HeaderMirror() {
         Morbi a elementum quam. Ut id faucibus leo, ac faucibus felis. Nam ut placerat tortor, sed vestibulum lectus. Duis a tincidunt odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales dolor diam. Aliquam ut vehicula neque. Maecenas dolor turpis, vulputate eu metus et, fringilla dapibus mi. Pellentesque vel porta turpis. Morbi vitae sem faucibus, ultrices neque eu, fringilla nibh. Morbi ut libero mauris. Ut posuere elit sem.
         </div>
       </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }

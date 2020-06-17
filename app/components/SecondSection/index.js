@@ -2,10 +2,12 @@ import React from 'react';
 import './SecondSection.scss';
 import BrightButton from '../BrightButton';
 import BasicButton from '../BasicButton';
+import Scroll from '../Scroll/Scroll';
 
-export default function SecondSection() {
+export default function SecondSection({title, id}) {
   return (
-    <div className="SecondSection">
+    <section className="SecondSection" title="Section 4"
+    id="features">
       <div className="container h-100">
         <div className="row h-100 text-center">
           <div className="col-md-6 col-sm-12 my-auto baseline">
@@ -59,6 +61,6 @@ export default function SecondSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

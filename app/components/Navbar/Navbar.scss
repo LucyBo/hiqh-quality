@@ -14,21 +14,24 @@
         font-size: 12px;
         padding: 8px 10px;
     }
-    .nav-item {
+    a {
         font-size: 16px;
         color: $basic-dark;
         margin-left: 1rem;
         &:active {
             color: $button-top;
+            text-decoration: none;
         }
         &:hover {
             color: $button-top;
+            text-decoration: none;
         }
     }
 }
 
 @media (min-width: 992px) {
     #mainNav {
+        background-color: $pink-round-decoration !important;
         border-color: transparent;
         opacity: 100%;
         .navbar-brand {
@@ -51,4 +54,7 @@
             }
         }
     }
+}
+body {
+  scroll-behavior: smooth;
 }
