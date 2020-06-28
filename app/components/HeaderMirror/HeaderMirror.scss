@@ -1,19 +1,11 @@
 @import "../../../app/assets/_master";
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
 
-section {
+.HeaderMirror {
     position: relative;
     width: 100%;
     background-color: $background-pink;
-    padding: 3rem 0 3rem 0;
-    h2 {
+    padding: 3rem 3rem;
+    h1 {
         font-family: $font-decorative;
         margin: 0 0 0 0;
         color: $purple;
@@ -29,6 +21,9 @@ section {
     ;
     .row {
         margin-left: 0;
+    }
+    .header-row {
+        padding: 0 2rem;
     }
 }
 

@@ -7,9 +7,9 @@ export default function Slider({id}) {
   return (
     <section className="slider text-center"
     id="section2">
-      <h2>A vision for change</h2>
+      <h2>Must-have</h2>
       <ul className="circle-container">
-        <li className="img-details img-1"><div className="description">Lorem Ipsum tu jest opis Lorem Ipsum tu jest opis</div></li>
+        <li className="img-details img-1" />
         <li className="img-details img-2" />
         <li className="img-details img-3" />
         <li className="img-details img-4" />

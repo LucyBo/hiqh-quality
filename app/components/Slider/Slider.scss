@@ -5,18 +5,18 @@
     h2 {
         font-family: $font-decorative;
         color: $purple;
-        margin: 2rem;
+        padding: 1rem 0 2rem 0;
         font-size: 3rem;
     }
     ;
     h4 {
         font-family: $font-decorative;
         color: $purple;
-        margin: 2rem;
+        padding: 4rem 0 0 0;
         font-size: 2rem;
     }
     .img-details {
-        opacity: 0.5;
+        opacity: 0.8;
         &:hover {
             opacity: 1;
         }
@@ -26,28 +26,28 @@
         padding-top: 60px;
     }
     .img-1 {
-        background-image: url('../../images/charity.png');
+        background-image: url('../../images/icons/css.png');
     }
     .img-2 {
-        background-image: url('../../images/success.png');
+        background-image: url('../../images/icons/git.png');
     }
     .img-3 {
-        background-image: url('../../images/growth.png');
+        background-image: url('../../images/icons/html-5.png');
     }
     .img-4 {
-        background-image: url('../../images/gym.png');
+        background-image: url('../../images/icons/github.png');
     }
     .img-5 {
-        background-image: url('../../images/knowledge.png');
+        background-image: url('../../images/icons/javascript.png');
     }
     .img-6 {
-        background-image: url('../../images/umbrella.png');
+        background-image: url('../../images/icons/react1.png');
     }
     .img-7 {
-        background-image: url('../../images/party.png');
+        background-image: url('../../images/icons/sass.png');
     }
     .img-8 {
-        background-image: url('../../images/birthday.png');
+        background-image: url('../../images/icons/chrome.png');
     }
     @mixin on-circle($item-count,
     $circle-size,
@@ -70,17 +70,19 @@
             $rot: 22.5;
             @for $i from 1 through $item-count {
                 &:nth-of-type(#{$i}) {
-                    transform: rotate($rot * 1deg) translate($circle-size / 2) rotate($rot * -1deg);
+                    transform: rotate($rot * 1deg) translate($circle-size / 1.6) rotate($rot * -1deg);
                 }
                 $rot: $rot+$angle;
             }
         }
     }
     .circle-container {
-        @include on-circle($item-count: 8, $circle-size: 45em, $item-size: 4em);
+        @include on-circle($item-count: 8, $circle-size: 30em, $item-size: 4em);
         margin: 5em auto 0;
-        background-image: url('../../images/cake.png');
+        background-image: url('../../images/imac-mockup.jpg');
         background-position: center center;
-        background-size: 400px 350px;
+        background-size: 550px;
+        border-radius: 50%;
+
     }
 }

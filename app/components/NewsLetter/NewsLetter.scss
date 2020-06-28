@@ -2,12 +2,13 @@
 .NewsLetter {
     width: 100%;
     background-color: $background-pink;
-    padding: 3rem 0 3rem 0;
-    h2 {
+    padding: 0;
+    h1 {
         font-family: $font-decorative;
         color: $purple;
         margin: 2rem;
         font-size: 3rem;
+        padding-top: 3rem;
     }
     ;
     .row {
@@ -24,6 +25,9 @@
         padding-left: 30px;
         background-repeat: no-repeat;
     }
+    .news-img {
+        margin: 2rem 0;
+    }
     label {
         display: block;
         color: $basic-dark;
@@ -38,6 +42,7 @@
         color: $icons-berries;
         font-size: 1rem;
         padding-left: 2rem;
+        margin: 0.5rem 0;
         &:focus {
             -webkit-box-shadow: 0px 0px 30px 6px rgba(182, 70, 116, 0.34);
             box-shadow: 0px 0px 30px 6px rgba(182, 70, 116, 0.34);

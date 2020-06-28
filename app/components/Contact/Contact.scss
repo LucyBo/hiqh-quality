@@ -3,11 +3,12 @@
     width: 100%;
     background-color: #ffffff;
     margin: 30px 0 30px 0;
-    h2 {
+    h1 {
         font-family: $font-decorative;
         color: $purple;
         margin: 2rem;
         font-size: 3rem;
+        padding-top: 3rem;
     }
     ;
     .baseline {
@@ -17,54 +18,14 @@
         align-items: center;
         padding: 10px;
     }
-    .bright-text {
-        color: grey;
-        margin: 0.5rem;
-    }
     .img-icon {
         height: 16px;
         width: 16px;
+        margin: 10px;
     }
     ;
     h3 {
         margin: 1rem;
     }
     ;
-    h4 {
-        text-align: left;
-    }
-    .steps {
-        padding: 2rem 1rem 2rem 1rem;
-    }
-    .bullets {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 1rem 0 1rem 0;
-        #dots {
-            height: 8px;
-            width: 8px;
-            border-radius: 50%;
-            background-color: $button-top;
-            margin-left: 40px;
-            -webkit-box-shadow: 40px 0px 0px 0px $button-top, 80px 0px 0px 0px $button-top;
-            -moz-box-shadow: 40px 0px 0px 0px $button-top, 80px 0px 0px 0px $button-top;
-            box-shadow: 40px 0px 0px 0px $button-top, 80px 0px 0px 0px $button-top;
-        }
-    }
-    ;
-    .decorative-number {
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        background-color: $button-top;
-        color: white;
-        display: inline-block;
-        padding: 10px;
-    }
-    ;
-    .left-align-description {
-        text-align: left;
-    }
 }

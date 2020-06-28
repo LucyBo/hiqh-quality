@@ -3,7 +3,8 @@
     width: 100%;
     background-color: #ffffff;
     margin: 30px 0 30px 0;
-    h2 {
+    font-family: $font-stack;
+    h1 {
         font-family: $font-decorative;
         color: $purple;
         margin: 2rem;
@@ -15,18 +16,37 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 10px;
     }
     .bright-text {
         color: grey;
         margin: 0.5rem;
     }
-    .icon-cake {
-        background-image: url('../../images/caipirinha.png');
-        height: 64px;
-        width: 64px;
+    .col-img {
+        max-height: 250px;
+        margin-bottom: 1rem;
     }
-    ;
+    .quote {
+        display: flex;
+        flex-direction: row;
+        text-align: justify;  
+        margin: 10px 10px;  
+        .quote-text {
+            height: 220px;
+            z-index: 1;
+          p {
+            font-family: $font-stack;
+            }  
+        }
+        .quote-mark {
+                width: 64px;
+                height: 64px;
+                position: absolute;
+                bottom: 230px;
+                left: 10px;
+                z-index: 0;
+            }
+    }
+  
     h3 {
         margin: 1rem;
     }
@@ -38,6 +58,7 @@
         max-height: 250px;
         width: auto;
     }
+    
     .steps {
         padding: 2rem 1rem 2rem 1rem;
     }

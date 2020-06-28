@@ -1,6 +1,6 @@
 @import "../../../app/assets/_master";
 #mainNav {
-    background-color: $background-pink !important;
+    background-color: $background-pink;
     .navbar-brand {
         color: $purple;
         font-family: $font-decorative;
@@ -14,6 +14,12 @@
         font-size: 12px;
         padding: 8px 10px;
     }
+    .navbar-toggler{
+        border: 2px solid $purple;
+        border-radius: 5px;
+        padding: 6px 6px 4px 6px;
+    }
+  
     a {
         font-size: 16px;
         color: $basic-dark;
@@ -28,33 +34,38 @@
         }
     }
 }
-
 @media (min-width: 992px) {
     #mainNav {
-        background-color: $pink-round-decoration !important;
+        background-color: rgba(232, 18, 100, 0.9);
         border-color: transparent;
-        opacity: 100%;
         .navbar-brand {
             color: $purple;
             margin-left: 1rem;
             &:hover,
             &:focus {
-                color: $button-top;
-            }
+                color: $basic-dark;
+            };
         }
-        .nav-item:focus {
-            &:hover,
-            &:active,
-            &:focus {
-                color: $button-top;
-            }
-            ;
-            &:visited {
-                color: $icons-berries;
-            }
+    a {
+        font-size: 16px;
+        color: $basic-dark;
+        margin-left: 2rem;
+        text-decoration: none;
+        opacity: 100%;
+        &:active {
+            color: $background-pink;
+           
+        }
+        &:hover {
+            color: $background-pink;
+           
         }
     }
+    }
 }
+
 body {
   scroll-behavior: smooth;
 }
+
+

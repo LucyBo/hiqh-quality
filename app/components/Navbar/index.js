@@ -4,8 +4,9 @@ import 'bootstrap/js/src/collapse.js';
 import {Route, Switch, NavLink} from "react-router-dom";
 import * as Scroll from 'react-scroll';
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import FirstSection from '../FirstSection';
-import Slider from '../Slider';
+import menu from '../../images/open-menu.png';
+
+
 
 
 export default class Navbar extends Component {
@@ -16,7 +17,7 @@ export default class Navbar extends Component {
     return (
     <div>
       <nav
-        className="navbar fixed-top navbar-expand-lg navbar-light bg-light"
+        className="navbar fixed-top navbar-expand-lg"
         id="mainNav"
       >
         <a className="navbar-brand" href="#">
@@ -31,15 +32,15 @@ export default class Navbar extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon"><img src={menu} className="img-fluid" alt="menu-open" /></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul className="navbar-nav">
-            <li className="nav-item"><a href="#section1">Section 1</a></li>
-            <li className="nav-item"><a href="#section2">Section 2</a></li>
-            <li className="nav-item"><a href="#section1">Section 3</a></li>
-            <li className="nav-item"><a href="#section1">Section 4</a></li>
-            <li className="nav-item"><a href="#section1">Section 5</a></li>
+            <li ><a className="nav-item" href="#section1">Section 1</a></li>
+            <li ><a className="nav-item" href="#section2">Section 2</a></li>
+            <li ><a className="nav-item" href="#section1">Section 3</a></li>
+            <li ><a className="nav-item" href="#section1">Section 4</a></li>
+            <li ><a className="nav-item" href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
