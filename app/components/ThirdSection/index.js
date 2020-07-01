@@ -4,18 +4,19 @@ import { Switch, Link, Route } from 'react-router-dom';
 import Footer from '../Footer/index';
 import PageA from '../PageA/index';
 import PageB from '../PageB/index';
+import PageC from '../PageC/index';
+import PageD from '../PageD/index';
+import PageE from '../PageE/index';
+import PageF from '../PageF/index';
+import PageG from '../PageG/index';
+import PageH from '../PageH/index';
+import PageI from '../PageI/index';
 
 export default class ThirdSection extends Component {
   constructor(props) {
     super(props);
     this.state = {
       routes: [
-        {
-          title: 'Footer',
-          key: 'footer',
-          link: '/',
-          component: Footer,
-        },
         {
           title: 'PageA',
           key: 'page-a',
@@ -28,6 +29,48 @@ export default class ThirdSection extends Component {
           link: '/page-b',
           component: PageB,
         },
+        {
+          title: 'PageC',
+          key: 'page-c',
+          link: '/page-c',
+          component: PageC,
+        },
+        {
+          title: 'PageD',
+          key: 'page-d',
+          link: '/page-d',
+          component: PageD,
+        },
+        {
+          title: 'PageE',
+          key: 'page-e',
+          link: '/page-e',
+          component: PageE,
+        },
+        {
+          title: 'PageF',
+          key: 'page-f',
+          link: '/page-f',
+          component: PageF,
+        },
+        {
+          title: 'PageG',
+          key: 'page-g',
+          link: '/page-g',
+          component: PageG,
+        },
+        {
+          title: 'PageH',
+          key: 'page-h',
+          link: '/page-h',
+          component: PageH,
+        },
+        {
+          title: 'PageI',
+          key: 'page-i',
+          link: '/page-i',
+          component: PageI,
+        }
       ],
     };
   }
@@ -63,18 +106,17 @@ export default class ThirdSection extends Component {
   render() {
     return (
       <div className="ThirdSection">
-        <div className="container h-100">
           <div className="row h-100 text-center">
             <h2 className="col-sm-12">Third Section Header</h2>
-            <div className="layout">
-              <div className="nav-menu">{this.renderMenuItems()}</div>
-              <div className="page-container">
+            <div className="container h-100">
+              <div className="nav-menu h-100">{this.renderMenuItems()}</div>
+            </div>
+              <div className="page-container container h-100">
                 <Switch>{this.renderRoutes()}</Switch>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+       
     );
   }
 }

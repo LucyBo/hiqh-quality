@@ -11,23 +11,6 @@
         font-size: 3rem;
     }
     ;
-    .baseline {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-    }
-    .bright-text {
-        color: grey;
-        margin: 0.5rem;
-    }
-    .icon-cake {
-        background-image: url('../../images/caipirinha.png');
-        height: 64px;
-        width: 64px;
-    }
-    ;
     h3 {
         margin: 1rem;
     }
@@ -35,38 +18,28 @@
     h4 {
         text-align: left;
     }
-    .steps {
-        padding: 2rem 1rem 2rem 1rem;
-    }
-    .bullets {
+    .nav-menu {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: space-between;
         align-items: center;
-        padding: 1rem 0 1rem 0;
-        #dots {
-            height: 8px;
-            width: 8px;
-            border-radius: 50%;
-            background-color: $button-top;
-            margin-left: 40px;
-            -webkit-box-shadow: 40px 0px 0px 0px $button-top, 80px 0px 0px 0px $button-top;
-            -moz-box-shadow: 40px 0px 0px 0px $button-top, 80px 0px 0px 0px $button-top;
-            box-shadow: 40px 0px 0px 0px $button-top, 80px 0px 0px 0px $button-top;
+        padding-bottom: 2rem;
+        a {
+            margin: 0 10px 0 10px;
+            font-family: $font-stack;
+            color: $basic-dark;
+        &:active,
+        &:hover,
+        &:focus,
+            {
+            color: $button-top;
+            text-decoration: none;
+            border-bottom-style: none;
         }
+     }
     }
-    ;
-    .decorative-number {
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        background-color: $button-top;
-        color: white;
-        display: inline-block;
-        padding: 10px;
-    }
-    ;
-    .left-align-description {
-        text-align: left;
+    .page-container {
+        width: 100vh;
     }
 }
