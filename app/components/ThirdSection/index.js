@@ -105,7 +105,7 @@ export default class ThirdSection extends Component {
 
   render() {
     return (
-      <div className="ThirdSection">
+      <div className="ThirdSection" id="section3">
           <div className="row h-100 text-center">
             <h2 className="col-sm-12">Third Section Header</h2>
             <div className="container h-100">
