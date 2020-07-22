@@ -1,7 +1,7 @@
 import React from 'react';
 import './HeaderMirror.scss';
-import imac from '../../images/imac.png';
-
+import iphone from '../../images/iphone-mockup.png';
+import darenergii from '../../images/darenergii.mp4';
 
 export default function HeaderMirror({title, id}) {
   return (
@@ -11,7 +11,10 @@ export default function HeaderMirror({title, id}) {
       <div className="row">
       <div className="col-lg-6 my-auto header-row">
         <div className="text-center">
-          <img src={imac} className="img-fluid" alt="smiling woman" />
+
+        <video width="400" loop={true} autoPlay="autoPlay" id="vid" muted>
+        <source src={darenergii} type="video/mp4"/>
+      </video>
         </div>
       </div>
       <div className="col-lg-6 my-auto header-row">

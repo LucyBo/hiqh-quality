@@ -3,7 +3,9 @@ import './DescriptionSection.scss';
 import BasicButton from '../BasicButton';
 import cake from '../../images/cake.png';
 import lipstick from '../../images/lipstick.png';
-import running from '../../images/running.png';
+import iphone from '../../images/iphone-mockup.png';
+import connect from '../../images/connect.png';
+import dice from '../../images/dice.png';
 
 export default function DescriptionSection() {
   return (
@@ -12,7 +14,7 @@ export default function DescriptionSection() {
         <div className="row h-100 text-center">
           <h2 className="col-sm-12">What is it about?</h2>
           <div className="col-lg-4">
-            <img src={cake} className="img-fluid" alt="smiling woman" />
+            <img src={dice} className="img-fluid" alt="smiling woman" />
             <h3>Habits</h3>
             <div>
               Because the only source of knowledge is experience. Provide a better understanding of the positive consequences that can follow a coding the positive outcomes, suggest ideas for research on the growth-promoting aspects of coding crises.
@@ -21,7 +23,7 @@ export default function DescriptionSection() {
 
           <div className="col-lg-4">
             
-            <img src={lipstick} className="img-fluid" alt="lipstick" />
+            <img src={connect} className="img-fluid" alt="lipstick" />
             <h3>Design</h3>
             <div>
             “Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle.”
@@ -30,7 +32,7 @@ export default function DescriptionSection() {
 
           <div className="col-lg-4">
            
-            <img src={running} className="img-fluid" alt="running woman" />
+            <img src={iphone} className="img-fluid" alt="running woman" />
             
             <h3>Goals</h3>
             <div>

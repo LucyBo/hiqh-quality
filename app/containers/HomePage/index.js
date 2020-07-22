@@ -18,6 +18,7 @@ import HeaderMirror from '../../components/HeaderMirror';
 import NewsLetter from '../../components/NewsLetter';
 import Contact from '../../components/Contact';
 import DescriptionSection from '../../components/DescriptionSection';
+import Footer from '../../components/Footer';
 
 export default function HomePage() {
   return (
@@ -34,6 +35,7 @@ export default function HomePage() {
       </Router>
       <NewsLetter/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

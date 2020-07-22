@@ -2,7 +2,8 @@
 .Contact {
     width: 100%;
     background-color: #ffffff;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 0 0;
+
     h1 {
         font-family: $font-decorative;
         color: $purple;
@@ -11,6 +12,9 @@
         padding-top: 3rem;
     }
     ;
+    p {
+        font-family: $font-stack;
+    }
     .baseline {
         display: flex;
         flex-direction: row;
@@ -28,4 +32,17 @@
         margin: 1rem;
     }
     ;
+    img {
+        width: 70%;
+        margin: 0;
+        padding:0;
+    }
 }
+
+@media (max-width: 576px) {
+    img {
+        width: 60%;
+        margin: 0;
+        padding:0;
+    }
+};

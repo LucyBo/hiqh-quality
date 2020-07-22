@@ -25,6 +25,14 @@
     .header-row {
         padding: 0 2rem;
     }
+    img {
+        max-height: 500px;
+    }
+    video {
+        width: 80%;
+        height: auto;
+        margin: 2rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -37,8 +45,5 @@
         h1 {
             font-size: 50px;
         }
-    }
-    img {
-        width: 90%;
     }
 }

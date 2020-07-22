@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './ThirdSection.scss';
 import { Switch, Link, Route } from 'react-router-dom';
-import Footer from '../Footer/index';
 import PageA from '../PageA/index';
 import PageB from '../PageB/index';
 import PageC from '../PageC/index';
@@ -58,18 +57,6 @@ export default class ThirdSection extends Component {
           key: 'page-g',
           link: '/page-g',
           component: PageG,
-        },
-        {
-          title: 'PageH',
-          key: 'page-h',
-          link: '/page-h',
-          component: PageH,
-        },
-        {
-          title: 'PageI',
-          key: 'page-i',
-          link: '/page-i',
-          component: PageI,
         }
       ],
     };
