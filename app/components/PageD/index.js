@@ -6,7 +6,7 @@ export default class PageD extends Component {
 	render() {
 		return (
 			<div className="Dice">
-				<h2 className="text-center">Dice Roll</h2>
+			
 				<div className="container-die">
 				<RollDice/>
 				</div>
@@ -14,3 +14,5 @@ export default class PageD extends Component {
 		);
 	}
 }
+
+//<h2 className="text-center">Dice Roll</h2>

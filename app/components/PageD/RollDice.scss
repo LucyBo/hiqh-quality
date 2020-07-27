@@ -1,12 +1,14 @@
+@import "../../../app/assets/_master";
+
 .RollDice {
   display: flex;
   flex-flow: column nowrap;
-  min-height: 100vh;
+  width: 50%;
+  margin-left: 25%;
 }
 .RollDice-container {
   display: flex;
   justify-content: center;
-  align-content: center;
 }
 .RollDice button {
   align-self: center;
@@ -15,11 +17,11 @@
   border: 0px;
   border-radius: 10px;
   color: white;
-  background-color: black;
+  background-color: $button-top;
   margin-top: 3em;
 }
 
 .RollDice button:hover {
-background-color: #fc9c00;
+background-color: $button-hover-bottom;
 cursor: pointer;
 }

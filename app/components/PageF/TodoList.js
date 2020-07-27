@@ -57,7 +57,7 @@ export default class TodoList extends Component {
     });
     return (
       <div className="TodoList">
-        <h1>Todo List!<span>A simple React Todo App</span></h1>
+        <h1>Todo List!</h1>
           <ul>
             {todos}
           </ul>

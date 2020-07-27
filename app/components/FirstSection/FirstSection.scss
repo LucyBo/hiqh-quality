@@ -31,7 +31,7 @@
         text-align: justify;  
         margin: 10px 10px;  
         .quote-text {
-            height: 220px;
+            height: 280px;;
             z-index: 1;
           p {
             font-family: $font-stack;
@@ -41,7 +41,7 @@
                 width: 64px;
                 height: 64px;
                 position: absolute;
-                bottom: 230px;
+                top: 320px;
                 left: 10px;
                 z-index: 0;
             }
@@ -92,5 +92,23 @@
     ;
     .left-align-description {
         text-align: left;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .FirstSection {
+        h1 {
+            font-size: 2rem;
+        }
+        .quote {
+        .quote-text {
+            height: auto;
+        }
+        .quote-mark {
+                position: absolute;
+                top: 320px;
+            }
+    }
     }
 }

@@ -7,7 +7,7 @@ export default function HeaderMirror({title, id}) {
   return (
     <section title="Section 5"
     id="section5" className="HeaderMirror" >
-      <h1 className="text-center">Header Mirror</h1>
+      <h1 className="text-center">My sample work</h1>
       <div className="row">
       <div className="col-lg-6 my-auto header-row">
         <div className="text-center">
@@ -18,9 +18,9 @@ export default function HeaderMirror({title, id}) {
         </div>
       </div>
       <div className="col-lg-6 my-auto header-row">
-        <h4>H4 Opis Tekstu Czarny</h4>
+        <h4>Bioenergotherapist's page</h4>
         <div className="right-col">
-        Morbi a elementum quam. Ut id faucibus leo, ac faucibus felis. Nam ut placerat tortor, sed vestibulum lectus. Duis a tincidunt odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales dolor diam. Aliquam ut vehicula neque. Maecenas dolor turpis, vulputate eu metus et, fringilla dapibus mi. Pellentesque vel porta turpis. Morbi vitae sem faucibus, ultrices neque eu, fringilla nibh. Morbi ut libero mauris. Ut posuere elit sem.
+        I used one from Gatsby starter, then completely makeover it. I prepared whole concept - design and functionality. Page has a little back-end app for sending data grabbed from contact form on mail. 
         </div>
       </div>
       </div>

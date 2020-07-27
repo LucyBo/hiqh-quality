@@ -5,3 +5,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 576px) {
+.Dice {
+  margin: 5px;
+  padding: 20px;
+}
+}

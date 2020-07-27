@@ -7,8 +7,8 @@
 }
 .Todo {
   display: flex;
-  margin: 1rem;
-  padding: 1.1rem 3rem;
+  margin: 1rem 0;
+  padding: 1rem 1rem;
   justify-content: space-between;
   align-items: center;
   background: rgba(255, 255, 255, 0.2);
@@ -73,25 +73,32 @@
   min-width: 100%;
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
+  display: row;
+  color: $basic-dark;
+  margin-left: 10px;
 }
 .Todo-edit-form input {
   flex-grow: 1;
-  border: none;
-  background: #f7f1f1;
-  padding: 0 1.5em;
-  font-size: initial;
+  padding: 1rem 1.5em;
+  margin-right: 1rem;
+  border: 4px solid $outline-button-frame;
+  border-radius: 30px;
+  width: 60%;
+  font-size: 1.2em;
+  color: $icons-berries;
 }
 .Todo-edit-form button {
-  padding: 0 1.3rem;
-  border: none;
-  background: #ff6666;
-  color: white;
+  padding: 0px 10px;
   text-transform: uppercase;
   font-weight: bold;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  margin-left: 5px;
+  margin-right: 0px;
   cursor: pointer;
-  transition: background 0.2s ease-out;
+  border-radius: 30px;
+  color: $icons-berries;
+  border: 3px solid;
+  border-color: $outline-button-frame;
+  -webkit-box-shadow: 0px 0px 30px 6px rgba(182,70,116,0.34); 
+  box-shadow: 0px 0px 30px 6px rgba(182,70,116,0.34);
 }
 .Todo-edit-form button:hover {
   background: #ff5e5e;
@@ -102,3 +109,6 @@
   height: 3rem;
 }
 
+li {
+  font-size: 1.3rem;
+}

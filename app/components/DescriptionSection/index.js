@@ -57,7 +57,7 @@ export default function DescriptionSection() {
               <div className="decorative-number">2</div>
               <span id="dots" />
             </div>
-            <h4>Babel, why are you do this to me? </h4>
+            <h4>Babel - nice joke</h4>
             <div className="left-align-description">17.06.2020 Babel has 4726 questions on GitHub. I don't know how I survived.</div>
           </div>
 

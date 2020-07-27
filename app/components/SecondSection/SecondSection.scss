@@ -3,6 +3,7 @@
 .SecondSection {
     background-color: white;
     padding: 3rem 0 3rem 0;
+    font-family: $font-stack;
 
 h4 {
     font-family: $font-decorative;
@@ -40,7 +41,10 @@ h4 {
 }
 
 @media (max-width: 992px) {
+    .SecondSection {
+        padding: 1rem;
     .violet-text {
         font-size: 16px;
+    }
     }
 }
