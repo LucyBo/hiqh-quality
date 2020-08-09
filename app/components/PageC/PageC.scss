@@ -1,1 +1,22 @@
 @import "../../../app/assets/_master";
+
+button {
+    border-radius: 30px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: $icons-berries;
+    border: 3px solid;
+    border-color: $outline-button-frame;
+    -webkit-box-shadow: 0px 0px 30px 6px rgba(182,70,116,0.34); 
+    box-shadow: 0px 0px 30px 6px rgba(182,70,116,0.34);
+    &:hover {
+        color: white;
+        background-image: linear-gradient(180deg, $button-top, $button-bottom);
+        border-color: white;
+    };
+    &:active, {
+        color: white;
+        background-image: linear-gradient(180deg, $button-top, $button-bottom);
+        border-color: white;
+    }
+}

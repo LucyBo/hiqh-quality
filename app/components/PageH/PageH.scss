@@ -1,1 +1,10 @@
 @import "../../../app/assets/_master";
+.JokeListContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    color: #78909c;
+    background: linear-gradient( 135deg, rgba(179, 229, 252, 1) 0%, rgba( 179, 229, 252, 1) 50%, rgba( 240, 98, 146, 1) 50%, rgba( 240, 98, 146, 1) 100%, );
+}

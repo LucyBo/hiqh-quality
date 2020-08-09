@@ -1,9 +1,9 @@
 @import "../../../app/assets/_master";
 .Contact {
     width: 100%;
-    background-color: #ffffff;
+    background-color: $background-pink;
     margin: 30px 0 0 0;
-
+    font-family: $font-stack;
     h1 {
         font-family: $font-decorative;
         color: $purple;

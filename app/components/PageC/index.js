@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './PageC.scss';
 
+
 export default class PageC extends Component {
 	constructor(props) {
 		super(props);
@@ -17,7 +18,7 @@ export default class PageC extends Component {
 			 <h1>Your number is: {this.state.number} </h1>
 			 {this.state.number === 7 
 				? <h2> You win! </h2>
-				: <button onClick={this.genRandom}>Kliknij mnie!</button>
+				: <button onClick={this.genRandom}>Click me!</button>
 				}
       </div>
     )

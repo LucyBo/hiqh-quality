@@ -44,7 +44,7 @@ export default class Todo extends Component {
             value={this.state.task} 
             name="task" 
             onChange={this.handleChange}/>
-            <button> Save</button>
+            <button >Save</button>
           </form>
         </div>
       );

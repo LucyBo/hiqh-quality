@@ -1,5 +1,4 @@
 @import "../../../app/assets/_master";
-
 .HeaderMirror {
     position: relative;
     width: 100%;
@@ -30,7 +29,7 @@
         max-height: 500px;
     }
     video {
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: 2rem;
     }
@@ -38,28 +37,28 @@
 
 @media (max-width: 992px) {
     .HeaderMirror {
-    padding: 1rem 0.5rem;
-    h4 {
-        margin: 1rem 0 1rem 0;
+        padding: 1rem 0.5rem;
+        h4 {
+            margin: 1rem 0 1rem 0;
+        }
+        ;
+        .right-col {
+            width: 80%;
+            margin: auto;
+        }
+        ;
+        .row {
+            margin-left: 0;
+        }
+        .header-row {
+            padding: 0 2rem;
+        }
+        img {
+            max-height: 500px;
+        }
+        video {
+            width: 80%;
+            margin: 8px 0;
+        }
     }
-    ;
-    .right-col {
-        text-align: justify;
-        text-justify: inter-word;
-    }
-    ;
-    .row {
-        margin-left: 0;
-    }
-    .header-row {
-        padding: 0 2rem;
-    }
-    img {
-        max-height: 500px;
-    }
-    video {
-        width: 100%;
-        margin: 8px 0;
-    }
-}
 }

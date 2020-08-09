@@ -17,46 +17,40 @@ export default class ThirdSection extends Component {
     this.state = {
       routes: [
         {
-          title: 'PageA',
-          key: 'page-a',
-          link: '/page-a',
-          component: PageA,
-        },
-        {
-          title: 'PageB',
+          title: 'Lucky Number',
           key: 'page-b',
           link: '/page-b',
           component: PageB,
         },
         {
-          title: 'PageC',
+          title: 'Another Lucky number',
           key: 'page-c',
           link: '/page-c',
           component: PageC,
         },
         {
-          title: 'PageD',
-          key: 'page-d',
-          link: '/page-d',
-          component: PageD,
-        },
-        {
-          title: 'PageE',
-          key: 'page-e',
-          link: '/page-e',
+          title: 'Lights Out',
+          key: 'lights-out',
+          link: '/lights-out',
           component: PageE,
         },
         {
-          title: 'PageF',
-          key: 'page-f',
-          link: '/page-f',
+          title: 'Todo List',
+          key: 'todo-list',
+          link: '/todo-list',
           component: PageF,
         },
         {
-          title: 'PageG',
-          key: 'page-g',
-          link: '/page-g',
+          title: 'Yahtzee',
+          key: 'Yahtzee',
+          link: '/yahtzee',
           component: PageG,
+        },
+        {
+          title: "Dad's jokes app",
+          key: 'jokes',
+          link: '/jokes',
+          component: PageH,
         }
       ],
     };
@@ -68,7 +62,7 @@ export default class ThirdSection extends Component {
 
     return routes.map(route => (
       <Link to={route.link} key={route.key}>
-        <div className="menu-item">{route.title}</div>
+        <div className="menu-item navbar-link">{route.title}</div>
       </Link>
     ));
   }
@@ -94,7 +88,8 @@ export default class ThirdSection extends Component {
     return (
       <div className="ThirdSection" id="section3">
           <div className="row h-100 text-center">
-            <h2 className="col-sm-12">Third Section Header</h2>
+            <h2 className="col-sm-12">Fun Zone</h2>
+            <h3 className="col-sm-12 text-center">Click! link and note your todo or check if You are a winner!</h3>
             <div className="container h-100">
               <div className="nav-menu h-100">{this.renderMenuItems()}</div>
             </div>
