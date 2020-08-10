@@ -2,7 +2,7 @@
 .ThirdSection {
   width: 100%;
   background-color: #ffffff;
-  margin: 30px 0 30px 0;
+  margin: 2rem 0 2rem 0;
   background: #FFECEF;
   font-family: "Raleway", sans-serif;
 }
@@ -32,26 +32,41 @@
   width: auto;
 }
 
-.ThirdSection .nav-menu a {
-  color: black;
-  font-family: "Fredoka One";
-  font-size: 1.5rem;
-}
-
 .ThirdSection .nav-menu a:hover {
-  color: #9C0746;
   text-decoration: none;
 }
 
 .ThirdSection .nav-menu a:active {
-  color: #F47099;
+  text-decoration: none;
 }
 
 .ThirdSection .nav-menu a:focus {
-  outline: none;
+  text-decoration: none;
 }
 
 .ThirdSection .nav-menu a:visited {
+  text-decoration: none;
+}
+
+.ThirdSection .nav-menu .menu-item {
+  color: #CE043D;
+  font-family: "Fredoka One";
+  font-size: 1.5rem;
+}
+
+.ThirdSection .nav-menu .menu-item:hover {
+  color: #E71265;
+}
+
+.ThirdSection .nav-menu .menu-item:active {
+  color: #9C0746;
+}
+
+.ThirdSection .nav-menu .menu-item:focus {
+  outline: none;
+}
+
+.ThirdSection .nav-menu .menu-item:visited {
   color: #F47099;
 }
 

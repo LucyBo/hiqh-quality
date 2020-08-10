@@ -9,7 +9,7 @@ import dice from '../../images/dice.png';
 
 export default function DescriptionSection() {
   return (
-    <section className="DescriptionSection ">
+    <section className="DescriptionSection " id="about">
       <div className="container h-100">
         <div className="row h-100 text-center">
           <h2 className="col-sm-12">What is it about?</h2>

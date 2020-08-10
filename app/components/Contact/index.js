@@ -13,7 +13,7 @@ export default function Contact({id}) {
   return (
     <section className="Contact" id="contact">
       <h1 className="text-center">Contact</h1>
-      <h4 className="text-center">Say hi to me!</h4>
+      <h4 className="text-center">Say hi to my fictitious contact details!</h4>
       <div className="container h-100">
         <div className="row h-100 text-center baseline">
           

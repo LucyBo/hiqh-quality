@@ -89,7 +89,7 @@ export default class ThirdSection extends Component {
       <div className="ThirdSection" id="section3">
           <div className="row h-100 text-center">
             <h2 className="col-sm-12">Fun Zone</h2>
-            <h3 className="col-sm-12 text-center">Click! link and note your todo or check if You are a winner!</h3>
+            <h4 className="col-sm-12 text-center">Click! link and note your todo or check if You are a winner!</h4>
             <div className="container h-100">
               <div className="nav-menu h-100">{this.renderMenuItems()}</div>
             </div>

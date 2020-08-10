@@ -11,7 +11,7 @@ export default class Header extends Component {
   render() {
   return (
     <section title="Section 1"
-    id="section1">
+    id="header">
       <header className="masthead" >
         <div className="container h-100">
           <div className="row h-100">
@@ -21,7 +21,6 @@ export default class Header extends Component {
                 <h4>
                   Custom made Starter build with ReactJS, Babel & Bootstrap
                 </h4>
-                <BasicButton>Click me!</BasicButton>
               </div>
             </div>
             <div className="col-lg-6 my-auto">

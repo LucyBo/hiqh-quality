@@ -18,8 +18,8 @@ export default function Slider({id}) {
         <li className="img-details img-7" />
         <li className="img-details img-8" />
       </ul>
-      <h4>Header H4</h4>
-      <div>Simple Description With basic text</div>
+      <h4>Technology</h4>
+      <div>Technologies that built this website</div>
       <BasicButton>Link! Link!</BasicButton>
     </section>
   );

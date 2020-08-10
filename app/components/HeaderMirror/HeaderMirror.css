@@ -40,28 +40,57 @@
   margin: 2rem;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 576px) and (max-width: 992px) {
   .HeaderMirror {
-    padding: 1rem 0.5rem;
+    padding: 16px;
   }
   .HeaderMirror h4 {
     margin: 1rem 0 1rem 0;
   }
   .HeaderMirror .right-col {
+    padding: 10px;
     width: 80%;
     margin: auto;
   }
   .HeaderMirror .row {
-    margin-left: 0;
+    margin: 0rem 0rem;
   }
   .HeaderMirror .header-row {
-    padding: 0 2rem;
-  }
-  .HeaderMirror img {
-    max-height: 500px;
+    text-align: justify;
+    align-items: center;
+    padding: 10px;
   }
   .HeaderMirror video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
-    margin: 8px 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .HeaderMirror {
+    padding: 16px;
+  }
+  .HeaderMirror h4 {
+    margin: 1rem 0 1rem 0;
+  }
+  .HeaderMirror .right-col {
+    width: 100%;
+    margin: auto;
+  }
+  .HeaderMirror .row {
+    text-align: justify;
+    margin: 2rem 0rem;
+  }
+  .HeaderMirror .header-row {
+    text-align: justify;
+    align-items: center;
+    padding: 10px;
+  }
+  .HeaderMirror video {
+    padding: 10px 0;
+    margin: 0px;
+    width: 100%;
   }
 }

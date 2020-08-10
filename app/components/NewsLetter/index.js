@@ -12,7 +12,7 @@ export default function NewsLetter() {
     <div className="NewsLetter" id="newsletter">
     <h1 className="text-center">Newsletter</h1>
     <h4 className="text-center">Take opportunity to read great jokes</h4>
-    
+    <div className="text-center">(This button newsletter doesn't do anything ...yet)</div>
     <div className="container h-100">
       <div className="row h-100 text-center">
         <div className="col-md-6 col-sm-12 my-auto baseline">

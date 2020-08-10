@@ -4,6 +4,8 @@
     .navbar-brand {
         color: $purple;
         font-family: $font-decorative;
+        padding-left: 0;
+        margin-left: 0;
         &:hover,
         &:focus {
             color: $button-top;
@@ -13,12 +15,11 @@
         font-size: 12px;
         padding: 8px 10px;
     }
-    .navbar-toggler{
+    .navbar-toggler {
         border: 2px solid $purple;
         border-radius: 5px;
         padding: 6px 6px 4px 6px;
     }
-  
     a {
         font-size: 16px;
         color: $basic-dark;
@@ -33,6 +34,7 @@
         }
     }
 }
+
 @media (min-width: 992px) {
     #mainNav {
         background-color: rgba(232, 18, 100, 0.9);
@@ -43,28 +45,25 @@
             &:hover,
             &:focus {
                 color: $basic-dark;
-            };
+            }
+            ;
         }
-    a {
-        font-size: 16px;
-        color: $basic-dark;
-        margin-left: 2rem;
-        text-decoration: none;
-        opacity: 100%;
-        &:active {
-            color: $background-pink;
-           
+        a {
+            font-size: 16px;
+            color: $basic-dark;
+            margin-left: 2rem;
+            text-decoration: none;
+            opacity: 100%;
+            &:active {
+                color: $background-pink;
+            }
+            &:hover {
+                color: $background-pink;
+            }
         }
-        &:hover {
-            color: $background-pink;
-           
-        }
-    }
     }
 }
 
 body {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-
-

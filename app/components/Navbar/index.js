@@ -36,10 +36,10 @@ export default class Navbar extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul className="navbar-nav">
-            <li ><a className="nav-item" href="#section1">Section 1</a></li>
-            <li ><a className="nav-item" href="#section2">Section 2</a></li>
-            <li ><a className="nav-item" href="#section3">Section 3</a></li>
-            <li ><a className="nav-item" href="#section1">Section 4</a></li>
+            <li ><a className="nav-item" href="#section1">Career</a></li>
+            <li ><a className="nav-item" href="#section2">Must Have</a></li>
+            <li ><a className="nav-item" href="#about">About</a></li>
+            <li ><a className="nav-item" href="#section3">Fun Zone</a></li>
             <li ><a className="nav-item" href="#contact">Contact</a></li>
           </ul>
         </div>

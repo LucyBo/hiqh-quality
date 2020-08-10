@@ -2,7 +2,7 @@
 .ThirdSection {
     width: 100%;
     background-color: #ffffff;
-    margin: 30px 0 30px 0;
+    margin: 2rem 0 2rem 0;
     background: $background-pink;
     font-family: $font-stack;
     h2 {
@@ -28,16 +28,33 @@
         padding-bottom: 2rem;
         width: auto;
         a {
-            color: black;
-            font-family: $font-decorative;
-            font-size: 1.5rem;
             &:hover {
-                color: $purple;
                 text-decoration: none;
             }
             ;
             &:active {
-                color: $button-frame-top;
+                text-decoration: none;
+            }
+            ;
+            &:focus {
+                text-decoration: none;
+            }
+            ;
+            &:visited {
+                text-decoration: none;
+            }
+            ;
+        }
+        .menu-item {
+            color: $button-bottom;
+            font-family: $font-decorative;
+            font-size: 1.5rem;
+            &:hover {
+                color: $button-top;
+            }
+            ;
+            &:active {
+                color: $purple;
             }
             ;
             &:focus {
