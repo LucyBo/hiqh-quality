@@ -105,11 +105,11 @@ var __wpo = {
     "5d8aa356f30b2e9275108f6a799320ff1974c14b": "/hiqh-quality/15.3f8d4e5523bd4c82fb66.chunk.js",
     "8e53420fc7861c4a22b6ee0d79ce78909513f19c": "/hiqh-quality/16.a45b4b420eb164a9dc5d.chunk.js",
     "73361e27c453f7b1dd0e0150c1885f3d324eeefa": "/hiqh-quality/17.f80a4de9be2fa0295fc6.chunk.js",
-    "c5997617359aed582032fef7b754ed77c03933fb": "/hiqh-quality/"
+    "4edfecf5b7f666a781d148e2cc8be6a901c3c8d2": "/hiqh-quality/"
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2020-8-17 11:45:29 PM",
+  "version": "2020-8-17 11:50:22 PM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": false
