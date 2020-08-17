@@ -31,7 +31,7 @@ var __wpo = {
       "/hiqh-quality/dc0bd022735ed218df547742a1b2f172.woff",
       "/hiqh-quality/2a940f0a77ebb0bf077ba66592ed6908.png",
       "/hiqh-quality/525b045652a098c424579bf4b062597b.png",
-      "/hiqh-quality/runtime.a724ad2ec8ee90bd780a.js",
+      "/hiqh-quality/runtime.26675762e20c3e33a6f0.js",
       "/hiqh-quality/"
     ],
     "additional": [
@@ -101,15 +101,15 @@ var __wpo = {
     "e64c83d458744f36beb37f9f86bbc2c6939dcf51": "/hiqh-quality/npm.react-scroll.1db847437dc1b2c19e1b.chunk.js",
     "4fff16989b47351347e3bf5540cc0d5c886b6166": "/hiqh-quality/npm.redux-saga.924710b066900fc92338.chunk.js",
     "7485fdee881ef1cc59f782c9bf58fa29516a0754": "/hiqh-quality/npm.uuid.d368583a8b6cd95ff3ff.chunk.js",
-    "badcbfa791491b54ebfed7134c50000472375ffd": "/hiqh-quality/runtime.a724ad2ec8ee90bd780a.js",
+    "6a20fee4ebb861509cd3d0cb317a2ff49a558412": "/hiqh-quality/runtime.26675762e20c3e33a6f0.js",
     "5d8aa356f30b2e9275108f6a799320ff1974c14b": "/hiqh-quality/15.3f8d4e5523bd4c82fb66.chunk.js",
     "8e53420fc7861c4a22b6ee0d79ce78909513f19c": "/hiqh-quality/16.a45b4b420eb164a9dc5d.chunk.js",
     "73361e27c453f7b1dd0e0150c1885f3d324eeefa": "/hiqh-quality/17.f80a4de9be2fa0295fc6.chunk.js",
-    "2618b9c4216a8653ea1bd5cc3ea6fdb915c5361c": "/hiqh-quality/"
+    "66e12cb1347ca05ff9330fc67125d41c4700d8b1": "/hiqh-quality/"
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2020-8-17 10:56:32 PM",
+  "version": "2020-8-17 11:00:40 PM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": false
@@ -194,7 +194,7 @@ var __wpo = {
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/hiqh-quality/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
