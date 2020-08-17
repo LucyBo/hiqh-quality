@@ -109,7 +109,7 @@ var __wpo = {
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2020-8-17 9:33:56 PM",
+  "version": "2020-8-17 9:38:08 PM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": false
@@ -198,12 +198,12 @@ var __wpo = {
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "22249e1ea7baa06e7c1b");
+/******/ 	return __webpack_require__(__webpack_require__.s = "1d96bec24a940c9c4ff0");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "22249e1ea7baa06e7c1b":
+/***/ "1d96bec24a940c9c4ff0":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -989,7 +989,7 @@ cacheMaps: [
             return;
           }
 
-          return new URL("/", location);
+          return new URL("/hiqh-quality/", location);
         },
       to: null,
       requestTypes: ["navigate"],
