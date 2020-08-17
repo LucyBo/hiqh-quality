@@ -31,7 +31,7 @@ var __wpo = {
       "./dc0bd022735ed218df547742a1b2f172.woff",
       "./2a940f0a77ebb0bf077ba66592ed6908.png",
       "./525b045652a098c424579bf4b062597b.png",
-      "./runtime.960434a85e23924286ef.js",
+      "./runtime.26675762e20c3e33a6f0.js",
       "./"
     ],
     "additional": [
@@ -101,15 +101,15 @@ var __wpo = {
     "e64c83d458744f36beb37f9f86bbc2c6939dcf51": "./npm.react-scroll.1db847437dc1b2c19e1b.chunk.js",
     "4fff16989b47351347e3bf5540cc0d5c886b6166": "./npm.redux-saga.924710b066900fc92338.chunk.js",
     "7485fdee881ef1cc59f782c9bf58fa29516a0754": "./npm.uuid.d368583a8b6cd95ff3ff.chunk.js",
-    "6dc963301acc1f1864077719050533cf2cd3b363": "./runtime.960434a85e23924286ef.js",
+    "6a20fee4ebb861509cd3d0cb317a2ff49a558412": "./runtime.26675762e20c3e33a6f0.js",
     "5d8aa356f30b2e9275108f6a799320ff1974c14b": "./15.3f8d4e5523bd4c82fb66.chunk.js",
     "8e53420fc7861c4a22b6ee0d79ce78909513f19c": "./16.a45b4b420eb164a9dc5d.chunk.js",
     "73361e27c453f7b1dd0e0150c1885f3d324eeefa": "./17.f80a4de9be2fa0295fc6.chunk.js",
-    "f301695e55f75ae2de8e3309e8c580c81ee5a27e": "./"
+    "b151df6346387b025ef3da24d278a50e8c3a4e6a": "./"
   },
   "strategy": "changed",
   "responseStrategy": "cache-first",
-  "version": "2020-8-17 9:53:01 PM",
+  "version": "2020-8-17 9:55:42 PM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.6",
   "relativePaths": true
@@ -194,7 +194,7 @@ var __wpo = {
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "https://lucybo.github.io/hiqh-quality/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
