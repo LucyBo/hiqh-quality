@@ -1,12 +1,8 @@
 {
-    "homepage": "https://lucybo.github.io/high-quality",
-    "name": "react-boilerplate",
+    "homepage": "https://lucybo.github.io/hiqh-quality",
+    "name": "high-quality-personality",
     "version": "4.0.0",
-    "description": "High Quality Personality",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/react-boilerplate/react-boilerplate.git"
-    },
+    "description": "High Quality",
     "engines": {
         "npm": ">=5",
         "node": ">=8.15.1"
@@ -15,7 +11,7 @@
     "license": "MIT",
     "scripts": {
         "predeploy": "npm run build",
-        "deploy": "gh-pages master -d build",
+        "deploy": "gh-pages -b master -d build",
         "analyze:clean": "rimraf stats.json",
         "preanalyze": "npm run analyze:clean",
         "analyze": "node ./internals/scripts/analyze.js",
@@ -27,11 +23,10 @@
         "build:clean": "rimraf ./build",
         "start": "cross-env NODE_ENV=development node server",
         "start:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server",
-        "start:production": "npm run test && npm run build && npm run start:prod",
+        "start:production": "npm run build && npm run start:prod",
         "start:prod": "cross-env NODE_ENV=production node server",
         "presetup": "npm i chalk shelljs",
         "setup": "node ./internals/scripts/setup.js",
-        "clean": "shjs ./internals/scripts/clean.js",
         "clean:all": "npm run analyze:clean && npm run test:clean && npm run build:clean",
         "generate": "plop --plopfile internals/generators/index.js",
         "lint": "npm run lint:js && npm run lint:css",
