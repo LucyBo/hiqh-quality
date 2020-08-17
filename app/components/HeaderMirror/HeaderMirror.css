@@ -32,6 +32,9 @@
 
 .HeaderMirror img {
   max-height: 500px;
+  width: 100%;
+  height: auto;
+  margin: 2rem;
 }
 
 .HeaderMirror video {
@@ -60,6 +63,12 @@
     align-items: center;
     padding: 10px;
   }
+  .HeaderMirror img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
   .HeaderMirror video {
     display: block;
     margin-left: auto;
@@ -87,6 +96,11 @@
     text-align: justify;
     align-items: center;
     padding: 10px;
+  }
+  .HeaderMirror img {
+    padding: 10px 0;
+    margin: 0px;
+    width: 100%;
   }
   .HeaderMirror video {
     padding: 10px 0;
