@@ -36,7 +36,7 @@ module.exports = {
       type: 'confirm',
       name: 'wantMessages',
       default: true,
-      message: 'Do you want i18n messages (i.e. will this component use text)?',
+      message: 'Do you want messages (i.e. will this component use text)?',
     },
     {
       type: 'confirm',
@@ -62,7 +62,7 @@ module.exports = {
       },
     ];
 
-    // If the user wants i18n messages
+    // If the user wants  messages
     if (data.wantMessages) {
       actions.push({
         type: 'add',

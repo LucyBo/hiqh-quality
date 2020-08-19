@@ -1,6 +1,5 @@
 import React from 'react';
 import { render } from 'react-testing-library';
-import { IntlProvider } from 'react-intl';
 
 import HomePage from '../index';
 
@@ -9,9 +8,9 @@ describe('<HomePage />', () => {
     const {
       container: { firstChild },
     } = render(
-      <IntlProvider locale="en">
+ 
         <HomePage />
-      </IntlProvider>,
+    
     );
     expect(firstChild).toMatchSnapshot();
   });
